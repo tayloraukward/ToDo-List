@@ -10,7 +10,8 @@ export function TodoList({ todos, toggleTodo, deleteTodo }) {
                         {...todo}
                         key={todo.id}
                         toggleTodo={toggleTodo}
-                        deleteTodo={deleteTodo}/>
+                        deleteTodo={deleteTodo}
+                    />
                 }
             )}
         </ul>
